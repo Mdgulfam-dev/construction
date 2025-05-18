@@ -33,7 +33,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 4000;
 const startServer = async () => {
   try {
     await connectDB();
