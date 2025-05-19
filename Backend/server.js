@@ -6,18 +6,33 @@ import userRouter from './route/userControllerRoute.js';
 import mail from './route/mailRoute.js';
 import budget from './route/budgetRoute.js';
 
+
 // Load environment variables first
 dotenv.config();
 
 const app = express();
 
 // Enhanced CORS configuration
+// app.use(cors({
+//   origin: ['http://localhost:5173', 'https://construction-44rn.vercel.app'],
+//   credentials: true,
+//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//   allowedHeaders: ['Content-Type', 'Authorization']
+// }));
+
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://construction-44rn.vercel.app'],
+  origin: [
+    'http://localhost:5173',
+    'https://construction-44rn.vercel.app',
+    'https://construction-44rn-asa0jfqhq-md-gulfams-projects.vercel.app',
+    'https://mdrabbancontractor.in', // ✅ Add your custom domain here
+    'https://www.mdrabbancontractor.in'
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 
 // Middleware
 app.use(express.json());
