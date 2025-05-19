@@ -25,8 +25,8 @@ app.use(cors({
     'http://localhost:5173',
     'https://construction-44rn.vercel.app',
     'https://construction-44rn-asa0jfqhq-md-gulfams-projects.vercel.app',
-    'https://construction-2-e7tf.onrender.com/user/login',
-    'https://mdrabbancontractor.in', // ✅ Add your custom domain here
+    'https://construction-2-e7tf.onrender.com',  // <--- only origin, no path
+    'https://mdrabbancontractor.in',
     'https://www.mdrabbancontractor.in'
   ],
   credentials: true,
@@ -34,8 +34,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
-// Handle preflight OPTIONS requests
-// app.options('*', cors());
+
 
 
 // Middleware
@@ -44,7 +43,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('Welcome to the Construction Backend API');
 });
-app.use(cors()); // handles all preflight requests already
+
 
 
 // Routes

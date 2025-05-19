@@ -37,6 +37,7 @@ const Login = () => {
           'Content-Type': 'application/json',
         },
         credentials: 'include', // Optional: If using cookies
+        
         body: JSON.stringify({
           email: formData.email.trim().toLowerCase(),
           password: formData.password,
