@@ -33,6 +33,9 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
+// Handle preflight OPTIONS requests
+app.options('*', cors());
+
 
 // Middleware
 app.use(express.json());
