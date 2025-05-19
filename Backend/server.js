@@ -25,7 +25,7 @@ app.use(cors({
     'http://localhost:5173',
     'https://construction-44rn.vercel.app',
     'https://construction-44rn-asa0jfqhq-md-gulfams-projects.vercel.app',
-    'https://construction-2-e7tf.onrender.com',
+    'https://construction-2-e7tf.onrender.com/user/login',
     'https://mdrabbancontractor.in', // ✅ Add your custom domain here
     'https://www.mdrabbancontractor.in'
   ],
