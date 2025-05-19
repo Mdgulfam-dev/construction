@@ -76,7 +76,7 @@ import { CheckCircle, ShieldCheck, Clock, Users } from 'lucide-react';
 const features = [
   {
     icon: <CheckCircle className="text-blue-600 w-8 h-8" />,
-    title: '100+ Successful Projects',
+    title: '1000+ Successful Projects',
     description: 'From interiors to multi-story constructions, we deliver with precision.',
   },
   {
