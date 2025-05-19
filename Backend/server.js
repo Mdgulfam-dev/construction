@@ -21,6 +21,11 @@ app.use(cors({
 
 // Middleware
 app.use(express.json());
+// Root route for browser
+app.get('/', (req, res) => {
+  res.send('Welcome to the Construction Backend API');
+});
+
 
 // Routes
 app.use('/api/user', userRouter);
