@@ -34,7 +34,7 @@ app.use(cors({
 }));
 
 // Handle preflight OPTIONS requests
-app.options('*', cors());
+// app.options('*', cors());
 
 
 // Middleware
@@ -43,6 +43,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('Welcome to the Construction Backend API');
 });
+app.use(cors()); // handles all preflight requests already
 
 
 // Routes
