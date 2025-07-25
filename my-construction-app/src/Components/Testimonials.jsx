@@ -80,7 +80,7 @@ const testimonials = [
     name: "Rahul Verma",
     role: "Homeowner, Noida",
     rating: 5,
-    comment: "Neva Infra turned my old house into a modern masterpiece. Timely work, no hidden costs, and the interior was stunning.",
+    comment: "They transformed my old house into a modern masterpiece. The work was completed on time, with full transparency and no hidden costs. The interior design was absolutely stunning—beyond my expectations!",
   },
   {
     name: "Priya Singh",

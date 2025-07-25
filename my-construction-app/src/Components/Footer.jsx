@@ -98,7 +98,7 @@ const Footer = () => {
         {/* Company Info */}
         <div style={{ flex: '1 1 200px' }}>
           <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#fff', marginBottom: '1rem' }}>
-            Md Rabban Civil Contractor
+            Managed By: Md Rabban Civil Contractor
           </h3>
           <p>
             Building innovative solutions for modern problems. Let's connect and create something amazing together.
@@ -126,9 +126,9 @@ const Footer = () => {
           <ul style={{ listStyle: 'none', padding: 0 }}>
             <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Building Construction</a></li>
             <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Home Renovation</a></li>
-            <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Interior Design</a></li>
             <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Consulting</a></li>
             <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Buy & Sell Property</a></li>
+             <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Home Rent</a></li>
             <li><a href="#" style={{ color: '#cbd5e0', textDecoration: 'none' }}>Land Deals</a></li>
           </ul>
         </div>
@@ -140,7 +140,7 @@ const Footer = () => {
           </h4>
           <p>Sarita Vihar, New Delhi, India</p>
           <p>Email: s.kmohdrabban@gmail.com</p>
-          <p>Phone: +91 9818243681</p>
+          <p>Phone: +91 9001402531</p>
           <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
             <motion.a
               href="#"

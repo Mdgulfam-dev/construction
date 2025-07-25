@@ -99,7 +99,7 @@ const Hero = () => {
   // WhatsApp Floating Button
 const WhatsAppButton = () => (
   <a
-    href="https://wa.me/919818243681" // Replace with your WhatsApp number
+    href="https://wa.me/919001402531" // Replace with your WhatsApp number
     target="_blank"
     rel="noopener noreferrer"
     className="fixed bottom-5 right-5 z-50"

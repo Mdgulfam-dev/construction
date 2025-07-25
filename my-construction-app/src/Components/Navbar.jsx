@@ -232,8 +232,8 @@ const Navbar = () => {
             to="/home"
             className="text-xl sm:text-2xl font-bold text-blue-600 tracking-wide"
           >
-            Md Rabban
-            <span className="text-gray-800"> Civil Contractor</span>
+            Renova
+            <span className="text-gray-800">x</span>
           </Link>
 
           {/* Desktop Menu */}
