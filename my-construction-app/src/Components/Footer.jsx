@@ -140,7 +140,7 @@ const Footer = () => {
           </h4>
           <p>Sarita Vihar, New Delhi, India</p>
           <p>Email: s.kmohdrabban@gmail.com</p>
-          <p>Phone: +91 9001402531</p>
+          <p>Phone: +91 9818243681</p>
           <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
             <motion.a
               href="#"
